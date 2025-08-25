@@ -17,8 +17,8 @@ public class Calculator {
             if(b == 0){
                 throw new ArithmeticException("divison by zero");
             }
-            else{
-            return a / b;}
+
+            return a / b;
         } else {
             throw new IllegalArgumentException("Unknown operator");
         }
